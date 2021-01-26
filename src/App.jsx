@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderBar from "./Component/HeaderBar";
+import Header from "./Component/Header";
 
 function App() {
   return (
     <div>
-   <HeaderBar />
+   <Header />
     </div>
   );
 }
