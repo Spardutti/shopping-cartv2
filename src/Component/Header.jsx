@@ -18,7 +18,6 @@ const Header = (props) => {
             <Link className="links" to="/shop">Shop</Link>
           </li>
           <li>
-            {" "}
             <Link className="links" to="/cart"><i class="fas fa-shopping-cart"></i> {0}</Link>
           </li>
         </ul>

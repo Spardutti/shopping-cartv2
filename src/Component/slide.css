@@ -1,0 +1,34 @@
+.slideContainer {
+    width: 360px;
+    height: 400px;
+    margin: 60px auto;
+    position: relative;
+}
+
+.slide-img {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    margin: auto;
+    border: 1px solid white;
+}
+
+.leftBtn {
+ position: absolute;
+ left: 0px;
+ top: 50%;
+ transform: translateY(-50%);
+font-size: 30px;
+}
+.rightBtn {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+

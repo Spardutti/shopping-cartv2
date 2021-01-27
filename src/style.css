@@ -1,8 +1,10 @@
-
 .header {
   width: 100%;
   height: 150px;
   border: 1px solid black;
+}
+.home {
+  text-align: center;
 }
 
 .headerTitle {
@@ -33,13 +35,36 @@ li {
   color: blue;
   transform: scale(1.2);
 }
-.slideShow {
-    width: 360px;
-    margin: auto;
-    background-color: red;
+
+.shopBtn {
+padding: 0.3em 1.2em;
+margin: 0 0.3em 0.3em 0;
+border-radius: 2em;
+box-sizing: border-box;
+text-decoration: none;
+color: black;
+background-color: #4eb5f1;
+text-align: center;
+transition: all 0.2s;
+font-weight: bold;
+display: inline-block;
+}
+.shopBtn:hover{
+  background-color: #4095c6;
 }
 
-img {
-    display: block;
-    padding-left: 50%;
+.price {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+
+
+
+
+
+
+
+
