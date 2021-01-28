@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+}
+.home {
+  text-align: center;
+}
+
+.headerTitle {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+ul {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+li {
+  display: block;
+  font-size: 28px;
+}
+.links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links:hover {
+  display: inline-block;
+  color: blue;
+  transform: scale(1.2);
+}
+
+.shopBtn {
+padding: 0.3em 1.2em;
+margin: 0 0.3em 0.3em 0;
+border-radius: 2em;
+box-sizing: border-box;
+text-decoration: none;
+color: black;
+background-color: #4eb5f1;
+text-align: center;
+transition: all 0.2s;
+font-weight: bold;
+display: inline-block;
+}
+.shopBtn:hover{
+  background-color: #4095c6;
+}
+
+.price {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+

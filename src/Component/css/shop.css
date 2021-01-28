@@ -1,0 +1,35 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px;
+  margin-top: 20px;
+}
+
+.img-container {
+  border: 2px solid black;
+  padding: 10px;
+  margin-left: 10px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.shop-img {
+  height: 90%;
+  width: 100%;
+}
+.shop-price {
+    display: inline-block;
+}
+
+.shop-to-cart {
+   display: inline;
+   position: absolute;
+   right: 10px;
+   font-size: 20px;
+   bottom: -15px;
+   
+}
+
+.title {
+    text-align: center;
+}
