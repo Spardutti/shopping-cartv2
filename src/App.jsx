@@ -39,12 +39,13 @@ const App = () => {
     let arr = cartItems;
     arr.splice(index, 1);
     setCartItems(arr);
-    console.log(cartItems);
     setCount(count - 1);
+    updateTotal();
   };
   //update the checkout amout
   const updateTotal = () => {
-    cartItems.map((e) => setTotal(total + e.price));
+    let sum = cartItems.reduce((a, b) => (a = a + b.price), 0);
+    setTotal(sum);
   };
 
   useEffect(() => {
@@ -77,7 +78,6 @@ const App = () => {
       </div>
 
       <Switch>
-    
         <Route
           exact
           path="/cart"
@@ -90,11 +90,7 @@ const App = () => {
           path="/shop"
           render={() => <Shop click={addToCart} imgData={imgData} />}
         />
-            <Route
-          
-          path="/"
-          render={() => <Home addToCart={addToCart} />}
-        />
+        <Route path="/" render={() => <Home addToCart={addToCart} />} />
       </Switch>
     </BrowserRouter>
   );
