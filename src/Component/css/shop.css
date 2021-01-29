@@ -50,6 +50,9 @@
     bottom: -15px;
   }
   .shop-to-cart {
-    right: 1px;
+    right: 6px;
+  }
+  .shop-container{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
