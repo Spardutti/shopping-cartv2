@@ -12,7 +12,7 @@ const Shop = (props) => {
             <div className="img-container">
               <img
                 className="shop-img"
-                src={props.imgData[index].name}
+                src={props.imgData[index].url}
                 name={props.imgData[index].name}
                 alt=""
               />

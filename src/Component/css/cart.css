@@ -1,0 +1,9 @@
+.list-checkout {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin-left: 10px;
+margin-top: 0px;
+padding-top: 0px;
+line-height: 1;
+border-bottom: 1px solid black;
+}

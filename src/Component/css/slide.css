@@ -14,28 +14,35 @@
     left: 5%;
     transform: translateY(-50%);
     margin: auto;
-    border: 1px solid white;
+    border: 5px dotted yellow;
+    box-shadow: 10px 10px 10px black;
 }
 
 .leftBtn {
  position: absolute;
- left: 0px;
+ left: 20px;
  top: 50%;
  transform: translateY(-50%);
 font-size: 30px;
 }
 .rightBtn {
     position: absolute;
-    right: 0px;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
 }
 .add-to-cart {
     position: absolute;
-    right: 10px;
-    bottom: -25px;
+    right: 30px;
+    bottom: 13px;
     font-size: 30px
 }
 
+@media only screen and (max-width: 400px){
+    .slideContainer{
+        margin-top: 0px;
+        height: 290px;
+    }
+}
 

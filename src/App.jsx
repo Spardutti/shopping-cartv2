@@ -23,9 +23,24 @@ const App = () => {
         return e.name;
       })
       .indexOf(name);
+      console.log(index)
     //push element to cartItems
     setCartItems([...cartItems, imgData[index]]);
   };
+
+
+  const deleteItem = (e) => {
+    let divParent = e.target.parentNode.parentNode;
+    let name = divParent.childNodes[0].innerHTML;
+    let index = cartItems.map((e) => {
+      return e.name
+    }).indexOf(name)
+    let arr = cartItems;
+    arr.splice(index, 1)
+    setCartItems(arr)
+    console.log(cartItems)
+    setCount(count - 1);
+  }
   //update the checkout amout
   const updateTotal = () => {
     cartItems.map((e) => setTotal(total + e.price));
@@ -36,6 +51,8 @@ const App = () => {
     setCount(cartItems.length);
     updateTotal();
   }, [cartItems]);
+
+ 
 
   return (
     <BrowserRouter>
@@ -65,7 +82,7 @@ const App = () => {
         <Route
           exact
           path="/cart"
-          render={() => <Cart cartItems={cartItems} total={total} />}
+          render={() => <Cart cartItems={cartItems} total={total} delete={deleteItem} />}
         />
         <Route
           exact

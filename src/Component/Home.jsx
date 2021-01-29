@@ -56,7 +56,7 @@ const Home = (props) => {
           }}
           className="slideContainer"
         >
-          <img name={imageData[img].name} className="slide-img" src={imageData[img].name} alt="" />
+          <img name={imageData[img].name} className="slide-img" src={imageData[img].url} alt="" />
           <p onClick={(prevImg, stopAutoPlay)} className="leftBtn">
             <i class="fas fa-arrow-left"></i>
           </p>
@@ -65,7 +65,7 @@ const Home = (props) => {
           </p>
           <p className="price">Price: {imageData[img].price}$</p>
           <motion.p
-            whileTap={{ scale: 1.3, color: "blue" }}
+            whileTap={{ scale: 1.3, color: "rgb(0, 0, 255)" }}
             className="add-to-cart"
             onClick={(props.addToCart)}
           >

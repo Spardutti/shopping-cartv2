@@ -1,26 +1,30 @@
 import React from "react";
+import "./css/cart.css";
 
 const Cart = (props) => {
   return (
     <div>
       <div>
         <h1 className="title">Ready to Checkout ?</h1>
-        <div className="shop-container">
-          {props.cartItems.map((e, index) => {
-            return (
-              <div className="img-container">
-                <img
-                  className="shop-img"
-                  src={props.cartItems[index].name}
-                  name={props.cartItems[index].name}
-                  alt=""
-                />
-                <p className="shop-price">
-                  Price: {props.cartItems[index].price}$
-                </p>
-              </div>
-            );
-          })}
+        <div>
+          <div className="list-checkout">
+
+          
+          <p>PRoduct</p>
+          <p>Quantity</p>
+          <p>Price</p>
+          </div>
+            {props.cartItems.map((e, index) => {
+              return (
+                <div className="list-checkout">
+                  <p name={e.name}>{e.name}</p>
+                  <p>0</p>
+                  <p>{e.price}$</p>
+                  <p onClick={props.delete}><i class="fas fa-trash"></i></p>
+                </div>
+              );
+            })}
+          
         </div>
       </div>
       <h1> Total: {props.total}$</h1>

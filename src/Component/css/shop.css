@@ -1,12 +1,12 @@
 .shop-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 300px;
+  grid-template-rows: repeat(auto, 260px);
   margin-top: 20px;
 }
 
 .img-container {
-  border: 2px solid black;
+  border: 5px solid black;
   padding: 10px;
   margin-left: 10px;
   position: relative;
@@ -32,4 +32,24 @@
 
 .title {
     text-align: center;
+}
+
+@media only screen and ( max-width: 400px){
+  .shop-img {
+    height: 100%;
+    width: 100%;
+  }
+  .img-container {
+    margin-right: 5px;
+    height: 150px;
+  }
+  .shop-price{
+    font-size: 15px;
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+  }
+  .shop-to-cart {
+    right: 1px;
+  }
 }
