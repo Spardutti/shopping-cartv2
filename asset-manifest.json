@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/shopping-cartv2/static/css/main.35c0e21e.chunk.css",
-    "main.js": "/shopping-cartv2/static/js/main.b0d31e69.chunk.js",
-    "main.js.map": "/shopping-cartv2/static/js/main.b0d31e69.chunk.js.map",
+    "main.css": "/shopping-cartv2/static/css/main.00140e3f.chunk.css",
+    "main.js": "/shopping-cartv2/static/js/main.7929e497.chunk.js",
+    "main.js.map": "/shopping-cartv2/static/js/main.7929e497.chunk.js.map",
     "runtime-main.js": "/shopping-cartv2/static/js/runtime-main.d59f6140.js",
     "runtime-main.js.map": "/shopping-cartv2/static/js/runtime-main.d59f6140.js.map",
-    "static/js/2.2c1253d0.chunk.js": "/shopping-cartv2/static/js/2.2c1253d0.chunk.js",
-    "static/js/2.2c1253d0.chunk.js.map": "/shopping-cartv2/static/js/2.2c1253d0.chunk.js.map",
+    "static/js/2.6aa27f70.chunk.js": "/shopping-cartv2/static/js/2.6aa27f70.chunk.js",
+    "static/js/2.6aa27f70.chunk.js.map": "/shopping-cartv2/static/js/2.6aa27f70.chunk.js.map",
     "index.html": "/shopping-cartv2/index.html",
-    "static/css/main.35c0e21e.chunk.css.map": "/shopping-cartv2/static/css/main.35c0e21e.chunk.css.map",
-    "static/js/2.2c1253d0.chunk.js.LICENSE.txt": "/shopping-cartv2/static/js/2.2c1253d0.chunk.js.LICENSE.txt",
-    "static/media/buu3.fa8dc3d4.png": "/shopping-cartv2/static/media/buu3.fa8dc3d4.png",
-    "static/media/goku1.021d7835.png": "/shopping-cartv2/static/media/goku1.021d7835.png",
-    "static/media/piccolo2.7364beb5.png": "/shopping-cartv2/static/media/piccolo2.7364beb5.png"
+    "static/css/main.00140e3f.chunk.css.map": "/shopping-cartv2/static/css/main.00140e3f.chunk.css.map",
+    "static/js/2.6aa27f70.chunk.js.LICENSE.txt": "/shopping-cartv2/static/js/2.6aa27f70.chunk.js.LICENSE.txt",
+    "static/media/backpack.c7c0e5c7.png": "/shopping-cartv2/static/media/backpack.c7c0e5c7.png",
+    "static/media/ball.b14a3910.png": "/shopping-cartv2/static/media/ball.b14a3910.png",
+    "static/media/dogbowl.0c41a942.png": "/shopping-cartv2/static/media/dogbowl.0c41a942.png",
+    "static/media/hat.2bc290fd.png": "/shopping-cartv2/static/media/hat.2bc290fd.png",
+    "static/media/sarten.8994a8a6.png": "/shopping-cartv2/static/media/sarten.8994a8a6.png",
+    "static/media/tshirt.26530ddd.png": "/shopping-cartv2/static/media/tshirt.26530ddd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d59f6140.js",
-    "static/js/2.2c1253d0.chunk.js",
-    "static/css/main.35c0e21e.chunk.css",
-    "static/js/main.b0d31e69.chunk.js"
+    "static/js/2.6aa27f70.chunk.js",
+    "static/css/main.00140e3f.chunk.css",
+    "static/js/main.7929e497.chunk.js"
   ]
 }
