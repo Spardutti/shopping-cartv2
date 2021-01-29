@@ -18,7 +18,7 @@ const Cart = (props) => {
               return (
                 <div className="list-checkout">
                   <p name={e.name}>{e.name}</p>
-                  <p>0</p>
+                  <p>1</p>
                   <p>{e.price}$</p>
                   <p onClick={props.delete}><i class="fas fa-trash"></i></p>
                 </div>
