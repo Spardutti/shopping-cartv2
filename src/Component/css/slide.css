@@ -43,6 +43,7 @@ font-size: 30px;
     .slideContainer{
         margin-top: 0px;
         height: 290px;
+        margin-left: 10px;
     }
 }
 
