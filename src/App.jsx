@@ -78,7 +78,7 @@ const App = () => {
       </div>
 
       <Switch>
-        <Route exact path="/" render={() => <Home addToCart={addToCart} />} />
+        <Route  path="/" render={() => <Home addToCart={addToCart} />} />
         <Route
           exact
           path="/cart"

@@ -78,6 +78,10 @@ li {
   .headerTitle {
     font-size: 40px;
   }
+  .header {
+   margin-left: 0;
+   width: 98%;
+  }
   .price {
     bottom: -30px;
   }
